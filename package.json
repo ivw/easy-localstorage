@@ -1,0 +1,32 @@
+{
+  "name": "easy-localstorage",
+  "version": "0.1.0",
+  "description": "Simple HTML5 local storage wrapper with prefix support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivw/easy-localstorage.git"
+  },
+  "keywords": [
+    "localstorage",
+    "local",
+    "storage",
+    "html5",
+    "prefix",
+    "json",
+    "simple",
+    "easy",
+    "wrapper",
+    "api",
+    "typescript"
+  ],
+  "author": "Ivo Wijnker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivw/easy-localstorage/issues"
+  },
+  "homepage": "https://github.com/ivw/easy-localstorage"
+}
