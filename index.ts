@@ -4,8 +4,8 @@ class EasyLocalStorage {
 
 	}
 
-	public set(key:string, value:any, prefix:string = this.prefix):void {
-		EasyLocalStorage.set(key, value, prefix);
+	public set(key:string, value:any, prefix:string = this.prefix):boolean {
+		return EasyLocalStorage.set(key, value, prefix);
 	}
 
 	public static set(key:string, value:any, prefix:string = ''):boolean {

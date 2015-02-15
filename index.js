@@ -10,7 +10,7 @@ var EasyLocalStorage = (function () {
 		if (prefix === void 0) {
 			prefix = this.prefix;
 		}
-		EasyLocalStorage.set(key, value, prefix);
+		return EasyLocalStorage.set(key, value, prefix);
 	};
 	EasyLocalStorage.set = function (key, value, prefix) {
 		if (prefix === void 0) {
